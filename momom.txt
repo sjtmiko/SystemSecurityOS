@@ -1,0 +1,71 @@
+How To Remastering Ubuntu 16.04 LTS to SyTiOS (System Security OS) using Pinguy Builder
+
+
+Download application:
+	- gnome-tweak-tool
+	- lightdm-gtk-greeter-settings
+	- Pinguy Bulider 4.3
+
+Step to Remastering
+1. Change Theme and Icon
+- sudo add-apt repository ppa:noobslab/macbuntu
+- sudo apt-get update
+
+ Download icon GT3X from gnome-look
+- untar -zxfv GT3X.tar.gz
+- sudo mv GT3X/ icons /usr/share/icons
+- change in gnome-tweak
+
+2. Change icon launcher
+ Download icons from bit.ly/SytiOS
+- cd Downloads/
+- sudo mv SytiOS.png /usr/share/unity/icons
+- cd /usr/share/unity/icons
+- sudo mv launcher_bfb.png launcher_bfb1.png
+- sudo mv SytiOS.png launcher_bfb.png
+- reboot
+
+3. Change Position dock
+- gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+4. Change Walpaper and lockscreen
+- use gnome-tweak tool
+5. Change Plymouth
+- sudo mv theme_lite_spinner.zip /usr/share/plymouth/themes
+- cd /usr/share/plymouth/themes
+- sudo unzip theme_lite_spinner.zip
+- cd the_lite_spinner
+- bash install.sh
+- sudo update-initramfs -u
+- reboot
+6. Edit lsb release and issue
+- sudo gedit /etc/issue
+	From Ubuntu 14.04 \n \l to SyTiOS \n \l
+- sudo cp /etc/issue /etc/issue.net
+- sudo gedit /etc/lsb-release
+7. Install Aps
+- sudo apt-get install zenmap
+- sudo apt-get install chkrootkit
+- sudo apt-get install shorewall
+- sudo apt-get install rkhunter
+- sudo apt-get install aircrack-ng
+- sudo apt-get install clamav
+8. Packing Iso
+- using Pinguy Builder->dist
+
+
+Link Apps and video
+-Pinguy Builder: https://sourceforge.net/projects/pinguy-os/files/ISO_Builder/
+-Icon : https://www.gnome-look.org/s/Gnome/p/1330379
+Plymouth : https://www.pling.com/p/1200274
+-Laucnher Icon: bit.ly/SytiOS
+-Walpaper and Lockscreen: https://3d-printermachine.com/wp-content/uploads/2017/06/Sculptor-3d-Printer-Design-Servive.jpg
+-All Applications installing from terminal
+- Video Tutorial:https://youtu.be/1mgyUO4fa1A
+
+Team:
+- Dimas Avianto M 	18.01.4129
+- Dwi Haryan S		18.01.4214
+- Erlangga Dewantoko	18.01.4152
+- Muhammad Asif P	18.01.4153
+				Diploma Informatic Engginering
+				 Amikom University Yogyakarta
