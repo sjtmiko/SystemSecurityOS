@@ -1,4 +1,4 @@
-How To Remastering Ubuntu 16.04 LTS to SyTiOS (System Security OS) using Pinguy Builder
+How To Remastering Ubuntu 16.04 LTS to SyTiOS (System Security OS)
 
 
 Download application:
