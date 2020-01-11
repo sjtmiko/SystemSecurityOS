@@ -61,7 +61,7 @@ Plymouth : https://www.pling.com/p/1200274
 -Walpaper and Lockscreen: https://3d-printermachine.com/wp-content/uploads/2017/06/Sculptor-3d-Printer-Design-Servive.jpg
 -All Applications installing from terminal
 - Video Tutorial:https://youtu.be/1mgyUO4fa1A
-
+- Download SyTi OS: https://drive.google.com/file/d/11PrIAB-8qJWfiytWQpiH3NrN7PnfXoDb/view?usp=sharing
 Team:
 - Dhimas Aviantho M 	18.01.4129
 - Dwi Haryan S		18.01.4214
